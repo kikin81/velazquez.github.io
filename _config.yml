@@ -31,6 +31,15 @@ google_site_verification: cVblbcvaADqAyPz4PghXPiAodyz33PG9GITL7OEzJss
 twitter:
   username: "kikin81"
 
+social:
+  type:  Person
+  name:  Francisco Velazquez
+  links:
+    - "https://twitter.com/kikin81"
+    - "https://www.facebook.com/fsvelazquez"
+    - "https://instagram.com/kikin81"
+    - "https://www.linkedin.com/in/fsvelazquez"
+
 comments:
   provider: disqus
   disqus:
@@ -89,6 +98,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
