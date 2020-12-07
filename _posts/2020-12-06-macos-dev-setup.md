@@ -21,7 +21,7 @@ The first thing to consider is to create a backup of your hidden files/folders t
 
 ## Homebrew
 
-[Homebrew](https://docs.brew.sh/Installation) is a must have for development. With it we can install `python`, `ruby`, `git` and other development esscentials.
+[Homebrew](https://docs.brew.sh/Installation) is a must have for development. With it we can install `python`, `ruby`, `git` and other development essentials.
 
 ### prerequisites
 
@@ -63,13 +63,13 @@ Next I replace the bundled bash shell with zsh using [oh-my-zsh](https://ohmyz.s
 $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### zsh plugins
+### zsh plug-ins
 
 <p align="center">
   <img alt="Zsh with auto complete" src="/assets/images/iterm.gif" width="980px">
 </p>
 
-Recommended zsh plugins are [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+Recommended zsh plug-ins are [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
 First install via brew:
 
@@ -109,7 +109,7 @@ Install [vysor](https://www.vysor.io/) for projecting a device to macOS
 $ brew install --cask vysor
 ```
 
-## Miscelaneous applications
+## Miscellaneous applications
 
 Finally, this is a list of my most used macOS applications which can be found in the App Store.
 
