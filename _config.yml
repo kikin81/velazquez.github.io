@@ -8,6 +8,7 @@ github_username: kikin81
 minimal_mistakes_skin: dark
 search: true
 words_per_minute: 200
+site.locale: en-US
 
 # Build settings
 markdown: kramdown
@@ -24,6 +25,8 @@ analytics:
   google:
     tracking_id: UA-41149470-1
     anonymize_ip: false
+# google seo
+google_site_verification: google-site-verification=cVblbcvaADqAyPz4PghXPiAodyz33PG9GITL7OEzJss
 
 comments:
   provider: disqus
