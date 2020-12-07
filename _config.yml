@@ -26,7 +26,7 @@ analytics:
     tracking_id: UA-41149470-1
     anonymize_ip: false
 # google seo
-google_site_verification: google-site-verification=cVblbcvaADqAyPz4PghXPiAodyz33PG9GITL7OEzJss
+google_site_verification: cVblbcvaADqAyPz4PghXPiAodyz33PG9GITL7OEzJss
 
 comments:
   provider: disqus
