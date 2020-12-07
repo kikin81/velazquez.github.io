@@ -64,6 +64,23 @@ $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/instal
   <img alt="Zsh with auto complete" src="/assets/images/iterm.gif" width="980px">
 </p>
 
+Recommended zsh plugins are [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+
+First install via brew:
+
+```
+$ brew install zsh-syntax-highlighting
+$ brew install zsh-autosuggestions
+```
+
+Edit `.zshrc` file:
+
+```
+source $ZSH/oh-my-zsh.sh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
+
 ## Android development
 
 Dowload the latest stable version of Android studio via the [releases page.](https://developer.android.com/studio/releases)
