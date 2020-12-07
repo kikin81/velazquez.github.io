@@ -28,6 +28,10 @@ analytics:
 # google seo
 google_site_verification: cVblbcvaADqAyPz4PghXPiAodyz33PG9GITL7OEzJss
 
+# twitter
+twitter:
+  username: "kikin81"
+
 comments:
   provider: disqus
   disqus:

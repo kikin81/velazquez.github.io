@@ -13,8 +13,6 @@ tags:
 toc: true
 ---
 
-# Things to install on a new installation of macOS
-
 The following is a personal guide on what I setup for my development machine.
 
 When setting up a new installation of macOS remember to pick a username that makes sense such as `fvelazquez` and avoid a pseudonym like `kikin81`. This will be helpful when `ssh` into it.
