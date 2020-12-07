@@ -9,6 +9,7 @@ categories:
 tags:
     - macOS
     - development
+toc: true
 ---
 
 # Things to install on a new installation of macOS
