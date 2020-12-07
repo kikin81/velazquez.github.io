@@ -3,14 +3,16 @@ title: New macOS Development Setup
 date: 2020-12-06T16:35:00-00:00
 categories:
     - blog
+tags:
     - macOS
+    - development
 ---
 
 # Things to install on a new installation of macOS
 
-The following is a personal guide on what I setup for my developement machine.
+The following is a personal guide on what I setup for my development machine.
 
-When setting up a new installation of macOS remember to pick a username that makes sense such as `fvelazquez` and avaoid a pseudonym like `kikin81`. This will be helpful when `ssh` into it.
+When setting up a new installation of macOS remember to pick a username that makes sense such as `fvelazquez` and avoid a pseudonym like `kikin81`. This will be helpful when `ssh` into it.
 
 The first thing to consider is to create a backup of your hidden files/folders that you want to keep such as `.zshrc` for zsh and `.ssh` for ssh keys.
 
@@ -20,7 +22,7 @@ The first thing to consider is to create a backup of your hidden files/folders t
 
 ### prerequisites
 
-Homebrew requires Command Line Tools which you can get by excecuting the following command in terminal
+Homebrew requires Command Line Tools which you can get by executing the following command in terminal
 
 ```
 $ xcode-select --install
@@ -42,7 +44,7 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 After homebrew is finished setup I then install the following software
 
 * git (_note:_ macOS already comes with git. Homebrew git will provide the latests version)
-* python (_note:_ macOS comes with Pyton but installing libraries would require using `sudo`. Installing via homebrew will get the latest version as well as let you install dependencies on home directory, not sudo required.)
+* python (_note:_ macOS comes with Python but installing libraries would require using `sudo`. Installing via homebrew will get the latest version as well as let you install dependencies on home directory, not sudo required.)
 * rbenv (_note:_ macOS comes with ruby out of the box as well, but we will get the latest from homebrew.)
 * nvm: lets you manage node environments
 
@@ -83,14 +85,14 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ## Android development
 
-Dowload the latest stable version of Android studio via the [releases page.](https://developer.android.com/studio/releases)
+Download the latest stable version of Android studio via the [releases page.](https://developer.android.com/studio/releases)
 Alternatively you can install it via `homebrew cask`
 
 ```
 $ brew install --cask android-studio
 ```
 
-Add sdk tools (`adb`) to your path:
+Add the sdk tools (`adb`) to your path:
 ```
 # ~/.zshrc
 
