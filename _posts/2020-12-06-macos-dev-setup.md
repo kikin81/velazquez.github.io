@@ -61,7 +61,7 @@ $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/instal
 ### zsh plugins
 
 <p align="center">
-  <img alt="Zsh with auto complete" src="/assets/iterm.gif" width="980px">
+  <img alt="Zsh with auto complete" src="/assets/images/iterm.gif" width="980px">
 </p>
 
 ## Android development
