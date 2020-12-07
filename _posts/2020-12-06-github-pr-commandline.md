@@ -69,8 +69,7 @@ Here is what each parameter does:
 
 **Note!** After entering the `hub pull-request` command you will proceed to your default text editor (i.e vim or emacs) to create the *title* and *message* for the pull request.
 The text up to the first blank line is treated as the pull request title, and the rest is used as pull request description in Markdown format.
-When multiple --message are passed, their values are concatenated with a blank line in-between.
-{: .notice}
+{: .notice--info}
 
 ## github enterprise
 
