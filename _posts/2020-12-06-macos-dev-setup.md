@@ -1,5 +1,8 @@
 ---
 title: New macOS Development Setup
+header:
+    image: /assets/images/tianyi-ma-WiONHd_zYI4-unsplash.jpg
+    caption: Photo by [Tianyi](https://unsplash.com/@tma?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/macbook?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 date: 2020-12-06T16:35:00-00:00
 categories:
     - blog
