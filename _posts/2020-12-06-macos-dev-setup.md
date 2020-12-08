@@ -100,7 +100,7 @@ Add the sdk tools (`adb`) to your path:
 # ~/.zshrc
 
 export ANDROID_HOME="PATH_TO_STUDIO_/Library/Android/sdk/"
-export PATH="/usr/local/bin:$PATH:$ANDROID_HOME"
+export PATH="/usr/local/bin:$PATH:$ANDROID_HOME:$ANDROID_HOME/platform-tools"
 ```
 
 Install [vysor](https://www.vysor.io/) for projecting a device to macOS
