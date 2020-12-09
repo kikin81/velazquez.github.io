@@ -2,7 +2,7 @@
 title: Create Pull Requests from the Command Line
 header:
     image: /assets/images/yancy-min-842ofHC6MaI-unsplash.jpg
-    caption: Photo by [Yancy Min](https://unsplash.com/@yancymin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](a href="https://unsplash.com/s/photos/github?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+    caption: Photo by [Yancy Min](https://unsplash.com/@yancymin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/github?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 date: 2020-12-06T20:00:00-00:00
 categories:
     - blog
