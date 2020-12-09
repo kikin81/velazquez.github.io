@@ -22,7 +22,7 @@ I want to give a shout out to the rock star Android developer [Manuel Vivo](http
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thanks! Yes, it&#39;s powered by Jekyll using the jasper2 theme deployed to GitHub actions and a custom Google domain :)</p>&mdash; Manuel Vivo (@manuelvicnt) <a href="https://twitter.com/manuelvicnt/status/1334725998605180930?ref_src=twsrc%5Etfw">December 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### Prerequisites
+## Prerequisites
 
 This blog post assumes you are familiar using [git](https://git-scm.com/), [github](https://github.com/) and the command line.
 
@@ -30,7 +30,7 @@ For creating and editing posts I use [Sublime Text](https://www.sublimetext.com/
 
 If you want to use your own domain like [franciscovelazquez.com](https://franciscovelazquez.com) and do not have one, I highly recommend using [Hover](https://hover.com) for purchasing domains. If by any chance you are using GoDaddy (how dare you) know that hover has a feature to automatically transfer your domain.
 
-### What is jekyll?
+## What is jekyll?
 
 Jekyll is a powerful and easy to use static site generator that works with github pages. It lets you write posts in markdown and does the conversion to a static html site for you!
 
@@ -208,6 +208,20 @@ Your settings should look like the following:
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
   <figcaption>Domain dns settings.</figcaption>
 </figure>
+
+Finally create a file named `CNAME` at the root level of the repository with your domain name like so:
+
+```
+franciscovelazquez.com
+```
+
+Commit and push the file
+
+```
+$ git add CNAME
+$ git commit -m "Created cname file with domain name"
+$ git push origin master
+```
 
 Once you update your domain DNS settings, give it a few minutes and you should be able to access your github pages from your custom domain!
 
