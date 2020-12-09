@@ -1,5 +1,5 @@
 ---
-title: Hosting a Blog Using Github Pages and Jekyll
+title: Hosting a Blog Using Github Pages and Jekyll for Free
 header:
     image: /assets/images/callum-shaw-TLxaYmixZ3k-unsplash.jpg
     caption: Photo by [Callum Shaw](https://unsplash.com/@callumshaw?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/coffee-macbook?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
@@ -14,7 +14,7 @@ tags:
 toc: true
 ---
 
-On today's blog post I'll guide you through the steps I took to create this site using [github pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/getting-started-with-github-pages), [jekyll](https://jekyllrb.com/) and the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme. In just a matter of minutes you should be able to launch your site and start blogging.
+On today's blog post I'll guide you through the steps I took to create this site using [github pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/getting-started-with-github-pages), [Jekyll](https://jekyllrb.com/) and the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme. In just a matter of minutes you should be able to launch your site and start blogging.
 
 One of the many advantages of hosting with github pages is that it's *free*! Another amazing benefit is that you get free out of the box `https` support if you decide to use your own domain.
 
@@ -121,7 +121,7 @@ $ cd username.github.io
 </figure>
 
 Next you want to edit the `_config.yml` file with as much detail as possible.
-Important things to edit are the site title, description locale and time zone. Personal information that you might want to add is email, twitter user name.
+Important things to edit are the `site title`, `description`, `locale` and `time zone`. Personal information that you might want to add is email and twitter user name.
 
 You can also configure google analytics comments and a lot more! For the full list of site configuration settings, please see the documentation [here](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
 
