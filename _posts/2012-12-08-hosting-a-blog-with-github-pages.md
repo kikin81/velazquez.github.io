@@ -55,12 +55,12 @@ From the template github repository [here](https://github.com/mmistakes/mm-githu
 
 Next you will create a github repository with the naming convention `<user>.github.io`. Since my github user name is `kikin81` my repository name will then be `kikin81.github.io`. You can choose to keep the repository Private.
 
-{% capture fig_img %}
+{% capture fig_img_two %}
 ![Create repository]({{ '/assets/images/blog_new_repo_s1.png' | relative_url }})
 {% endcapture %}
 
 <figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  {{ fig_img_two | markdownify | remove: "<p>" | remove: "</p>" }}
   <figcaption>You must use <user>.github.io as the repository name. </figcaption>
 </figure>
 
