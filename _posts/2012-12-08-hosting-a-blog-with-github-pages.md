@@ -42,7 +42,7 @@ I decided to go with the Minimal Mistakes theme because of it's simplicity and q
 
 The minimal mistakes jekyll theme offers a [template](https://github.com/mmistakes/mm-github-pages-starter) that you can use to get started right away.
 
-From the template github repository (https://github.com/mmistakes/mm-github-pages-starter) click on "Use this template" button.
+From the template github repository [here](https://github.com/mmistakes/mm-github-pages-starter) click on "Use this template" button.
 
 {% capture fig_img %}
 ![Use this template button]({{ '/assets/images/blog_template_start_1.png' | relative_url }})
@@ -61,7 +61,7 @@ Next you will create a github repository with the naming convention `<user>.gith
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>You must use `<user>.github.io` as the repository name. </figcaption>
+  <figcaption>You must use <user>.github.io as the repository name. </figcaption>
 </figure>
 
 **Note!** The github pages documentation [here](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site) offers a detailed guide on how to do this step from scratch. Feel free to reference their guide if you get stuck at any point.
