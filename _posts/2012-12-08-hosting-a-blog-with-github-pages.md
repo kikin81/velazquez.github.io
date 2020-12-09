@@ -42,7 +42,7 @@ I decided to go with the Minimal Mistakes theme because of it's simplicity and q
 
 The minimal mistakes jekyll theme offers a [template](https://github.com/mmistakes/mm-github-pages-starter) that you can use to get started right away.
 
-From the template github repository [here](https://github.com/mmistakes/mm-github-pages-starter) click on "Use this template" button.
+From the template github repository [here](https://github.com/mmistakes/mm-github-pages-starter) click on "Use this template" button (you must be logged into Github for this to work).
 
 {% capture fig_img %}
 ![Use this template button]({{ '/assets/images/blog_template_start_1.png' | relative_url }})
