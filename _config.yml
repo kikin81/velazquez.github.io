@@ -31,6 +31,11 @@ google_site_verification: cVblbcvaADqAyPz4PghXPiAodyz33PG9GITL7OEzJss
 twitter:
   username: "kikin81"
 
+# Mastodon instances
+mastodon:
+- username: kikin
+  instance: mastodon.social
+
 social:
   type:  Person
   name:  Francisco Velazquez
