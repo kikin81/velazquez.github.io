@@ -6,7 +6,7 @@ header:
 date: 2023-08-17T12:00:00-00:00
 categories:
   - blog
-  - guest author
+  - guest-author
 tags:
   - ecommerce
   - side hustle
