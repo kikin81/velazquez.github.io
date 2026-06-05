@@ -1,19 +1,14 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.4"
+gem "jekyll-theme-chirpy", "~> 7.5"
 
-# Site plugins
-group :jekyll_plugins do
-  gem "jekyll-remote-theme"   # loads remote_theme: mmistakes/minimal-mistakes
-  gem "jekyll-paginate"
-  gem "jekyll-sitemap"
-  gem "jekyll-gist"
-  gem "jekyll-feed"
-  gem "jemoji"
-  gem "jekyll-include-cache"
-end
+gem "html-proofer", "~> 5.0", group: :test
 
-# Local server (Ruby 3+) and Windows-only gems guarded by platform
+# Local preview server (Ruby 3+)
 gem "webrick"
+
+# Windows / JRuby platform helpers
 gem "wdm", "~> 0.2.0", platforms: [:mingw, :x64_mingw, :mswin]
 gem "tzinfo-data", platforms: [:mingw, :x64_mingw, :mswin, :jruby]

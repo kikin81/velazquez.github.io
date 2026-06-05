@@ -1,8 +1,7 @@
 ---
 title: Hosting a Blog Using Github Pages and Jekyll for Free
-header:
-    image: /assets/images/callum-shaw-TLxaYmixZ3k-unsplash.jpg
-    caption: Photo by [Callum Shaw](https://unsplash.com/@callumshaw?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/coffee-macbook?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+image:
+  path: /assets/images/callum-shaw-TLxaYmixZ3k-unsplash.jpg
 date: 2020-12-08T19:00:00-00:00
 categories:
     - blog
