@@ -18,11 +18,11 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/Los_Angeles
 
-# Analytics
+# Analytics (GA4 via gtag.js)
 analytics:
-  provider: google
+  provider: "google-gtag"
   google:
-    tracking_id: UA-41149470-1
+    tracking_id: "G-QHFHFCSVFE"
     anonymize_ip: false
 # google seo
 google_site_verification: cVblbcvaADqAyPz4PghXPiAodyz33PG9GITL7OEzJss
@@ -45,10 +45,17 @@ social:
     - "https://instagram.com/kikin81"
     - "https://www.linkedin.com/in/fsvelazquez"
 
+# GitHub repo backing giscus comments (Discussions)
+repository: "kikin81/velazquez.github.io"
 comments:
-  provider: disqus
-  disqus:
-    shortname: franciscovelazquez-com
+  provider: "giscus"
+  giscus:
+    repo_id: "MDEwOlJlcG9zaXRvcnkxMDQ1MDM0MTg="
+    category_name: "Comments"
+    category_id: "DIC_kwDOBjqYes4C-i3s"
+    discussion_term: "pathname"
+    reactions_enabled: "1"
+    theme: "dark"                  # matches minimal_mistakes_skin: dark
 
 include:
   - _pages
