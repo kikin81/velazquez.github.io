@@ -22,7 +22,7 @@ timezone: America/Los_Angeles
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "G-XXXXXXXXXX"   # TODO: replace with GA4 Measurement ID before merge
+    tracking_id: "G-QHFHFCSVFE"
     anonymize_ip: false
 # google seo
 google_site_verification: cVblbcvaADqAyPz4PghXPiAodyz33PG9GITL7OEzJss
