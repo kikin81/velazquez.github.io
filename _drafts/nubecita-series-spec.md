@@ -150,6 +150,10 @@ Full pass over all 133 PNGs (5 parallel reviewers). Picked **19**, resized to �
 | `p4-settings-dark.webp` | Screenshot 2026-05-23 at 11.20.03 AM | P4 |
 | `p5-beads-board-dark.webp` | Screenshot 2026-05-22 at 2.52.06 PM | P5 (beads) |
 | `p5-openspec-compose-expert.webp` | Screenshot 2026-05-26 at 8.15.34 PM | P5 (OpenSpec) |
+| `p6-entitlement-pro.webp` | revenuecat/products.png | P6 **(entitlement + products hero)** |
+| `p6-anonymous-customer.webp` | revenuecat/userid.png | P6 **(anon ID + sandbox sub hero)** |
+| `p6-mcp-commands.webp` | revenuecat/mcp-details.png | P6 (MCP NL commands) |
+| `p6-mcp-overview.webp` | revenuecat/mcp.png | P6 (MCP intro) |
 | `p7-semantic-release-notes.webp` | Screenshot 2026-05-21 at 8.01.25 PM | P7 |
 | `p7-play-console-autotranslate.webp` | Screenshot 2026-05-27 at 12.15.21 AM | P7/P8 (i18n) |
 | `p7-play-console-release.webp` | Screenshot 2026-05-27 at 12.09.24 AM | P7 |
@@ -159,7 +163,8 @@ Full pass over all 133 PNGs (5 parallel reviewers). Picked **19**, resized to �
 
 **Findings from the pass:**
 - ✅ **Icon evolution EXISTS** — a clear May-21 progression was captured: cloud mascot → + pink bow → blue-square / color & shape variants → final icon on the home screen. Three picked above; more variants available (`…2.23.11 PM` Figma, `…4.03.50 PM` mono-green, `…5.19.51/5.20.39 PM` shape grid, `…10.45.54 AM` iterations) if we want a richer before→after montage. **This answers the icon-evolution open question — no extra screenshot pass needed.**
-- ⚠️ **Part 6 (MCPs & Billing) has NO usable image.** The "RevenueCat" shots are actually **GitHub Actions billing** (metered usage / Actions-Linux / Storage), not the RevenueCat IAP dashboard, and there's **no paywall screen** in the 133. Need fresh captures: RevenueCat dashboard (entitlement/products) + the `:feature:paywall` screen.
+- ✅ **Part 6 (MCPs & Billing) — mostly resolved (2026-06-05).** User added `~/Desktop/nubecita/revenuecat/` (4 real shots), committed above: the `pro` entitlement with `nubecita_pro:annual`/`:monthly` attached, an anonymous-customer profile (`$RCA…` App User Id + a USD 1.99 sandbox sub — proves "never the Bluesky DID"), and the RevenueCat MCP docs (NL command examples). Privacy-clean (sandbox data, no API keys, anon ID truncated). **Still missing:** (a) the in-app `:feature:paywall` Compose screen, and (b) the **$19.99/yr annual price** shown explicitly (only the $1.99/mo appears, on the customer shot) — a grab of Product catalog → Products would nail both prices side-by-side.
+  - _Earlier note (resolved): the original "RevenueCat" shots in the main folder were actually GitHub Actions billing, not the IAP dashboard._
 - 🗑️ **Strays correctly dropped:** system Contacts app (the aurora-background "profile" shots), macOS About, MacBook purchase page, Social-Security graph, Fly.io/DNS/WAF infra, insurance UI.
 - Many near-dupe clusters (e.g. five 7:01 PM profile frames, 9:02 PM Play-listing trio) — kept one each.
 
