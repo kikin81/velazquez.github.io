@@ -23,8 +23,8 @@ Veteran (Android dev **since 2011**), father, full-time engineer — never shipp
 - **Cadence:** draft one post at a time; user reviews each before the next.
 
 ## ⚠️ Facts to verify before publishing
-1. **APK size** — user says "<10 MB"; NOT in repo (qualitative only). Confirm the real installed/download size (e.g. via bundle/APK analyzer) before stating a number.
-2. **Official Bluesky client size** ("~100 MB, React Native") — user's claim; confirm current figure.
+1. ✅ **APK size — CONFIRMED 12 MB** (Play Store "About this app", nubecita v1.193.3, Pixel 10 Pro XL download size; Requires Android 9+). Use **"12 MB"**, not the old "<10 MB" guess.
+2. ✅ **Official Bluesky client — CONFIRMED 148 MB** (Play Store, Bluesky v1.122.0 by Bluesky PBLLC, same Pixel 10 Pro XL download size; Android 7+). Use **"148 MB"**, not "~100 MB". **Headline stat: 12 MB vs 148 MB ≈ 12× smaller**, same device, same store metric (fairest comparison). Bluesky = React Native; nubecita = native Compose.
 3. **Years of experience** — "since 2011" (~15 yrs). Use "since 2011".
 4. Versions drift (Renovate): quote `gradle/libs.versions.toml` at draft time, not code comments.
 
@@ -34,7 +34,7 @@ Veteran (Android dev **since 2011**), father, full-time engineer — never shipp
 **Spine:** why now. Android dev since 2011; dad + full-time engineer; the real blocker was never skill, it was the time cost of starting *and maintaining* solo. Claude Code + Android CLI skills let me prototype fast and keep momentum in small windows. Then: what nubecita is.
 **Highlights:**
 - What it is: fast, lightweight, **native** Bluesky client; package `net.kikin.nubecita`.
-- Positioning vs official app (RN, large) — **[verify sizes]**.
+- Positioning vs official app: **12 MB vs 148 MB — ~12× smaller** (same device/store metric); native Compose vs React Native. (Confirmed; assets `p1-appsize-nubecita.webp` / `p1-appsize-bluesky.webp`.)
 - Stack teaser (full detail later): 100% Compose, **Nav 3**, **Material 3 Expressive**, Hilt, Room; atproto-kotlin (my own SDK).
 - The 120 Hz scroll goal as the north star (hard requirement; verified via `dumpsys gfxinfo`).
 **Takeaway:** AI tooling didn't write the app for me; it removed the activation energy that had stopped me for a decade.
@@ -67,7 +67,7 @@ Veteran (Android dev **since 2011**), father, full-time engineer — never shipp
 - **MVI** story: `MviViewModel<S,E,F>` (StateFlow + `Channel` effects). Original `633d2467` (#15) shipped an `Async<T>` wrapper — **deleted in the same PR** to "pivot to flat UI-ready state and effect-based errors"; now a hard non-goal (no `Async`/`Result` at VM→UI boundary). Foundation = 4 files (~60 LOC). Later moved to `:core:common` (`78eba4f6`).
 - Skeleton arc (commits): scaffold → rename → OpenSpec → **Hilt** (`434eeeae`) → **beads** (`6cffe631`) → **MVI** (`633d2467`) → atproto SDK (`80fea86b`).
 - **Performance/120 Hz:** `:benchmark` macrobenchmarks — `FeedScrollBenchmark` (fling, `FrameTimingMetric`, p95 = regression target), `StartupBenchmark`, `BaselineProfileGenerator` (committed profiles). CI `macrobench.yaml` → gh-pages trend, `fail-on-alert 150%`.
-- **Lightweight, honestly:** R8 + resource shrink, Material Symbols subsetting (14.9 MB → ~340 KB), Downloadable Fonts, per-PR APK-size deltas. **[state final size only after verify]**
+- **Lightweight, honestly:** R8 + resource shrink, Material Symbols subsetting (14.9 MB → ~340 KB), Downloadable Fonts, per-PR APK-size deltas. **Final download size: 12 MB** (vs Bluesky's 148 MB — confirmed via Play Store).
 **Takeaway:** boundaries (api/impl, SDK-agnostic cores) are what let one person hold a 50-module app in their head — and what let agents work safely in it.
 
 ## Part 5 — The AI Toolkit *(deep, ~1,400–1,800 words)*
@@ -136,6 +136,8 @@ Full pass over all 133 PNGs (5 parallel reviewers). Picked **19**, resized to �
 | Committed file (`assets/img/nubecita/`) | Source PNG (`~/Desktop/nubecita/`) | Post |
 |---|---|---|
 | `p1-profile-light.webp` | nubecita_01.png | P1 **(cover candidate)** |
+| `p1-appsize-nubecita.webp` | Play Store "About this app" (12 MB) | P1/P4 **(size stat)** |
+| `p1-appsize-bluesky.webp` | Play Store "About this app" (148 MB) | P1/P4 **(size stat)** |
 | `p1-oauth-consent.webp` | Screenshot 2026-05-16 at 2.08.15 PM | P1/P3 |
 | `p1-feed-dark.webp` | Screenshot 2026-05-22 at 5.51.35 PM | P1/P4 |
 | `p1-profile-dark.webp` | Screenshot 2026-05-23 at 7.01.11 PM | P1 |
