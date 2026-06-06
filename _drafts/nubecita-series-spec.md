@@ -154,6 +154,10 @@ Full pass over all 133 PNGs (5 parallel reviewers). Picked **19**, resized to �
 | `p6-anonymous-customer.webp` | revenuecat/userid.png | P6 **(anon ID + sandbox sub hero)** |
 | `p6-mcp-commands.webp` | revenuecat/mcp-details.png | P6 (MCP NL commands) |
 | `p6-mcp-overview.webp` | revenuecat/mcp.png | P6 (MCP intro) |
+| `p6-paywall-dark.webp` | paywall/Screenshot…10.30.33 PM | P6 **(paywall hero — both prices)** |
+| `p6-paywall-compose-preview.webp` | paywall/Screenshot…10.29.47 PM | P6 (Compose @Preview + screenshot test) |
+| `p6-play-manage-subscription.webp` | paywall/google-play-subscription.png | P6 (Play-side sandbox sub) |
+| `p6-purchase-flow.mp4` | paywall/purchase-flow.mp4 (re-encoded 720p, 25s, 2 MB) | P6 **(embeddable demo video)** |
 | `p7-semantic-release-notes.webp` | Screenshot 2026-05-21 at 8.01.25 PM | P7 |
 | `p7-play-console-autotranslate.webp` | Screenshot 2026-05-27 at 12.15.21 AM | P7/P8 (i18n) |
 | `p7-play-console-release.webp` | Screenshot 2026-05-27 at 12.09.24 AM | P7 |
@@ -163,7 +167,10 @@ Full pass over all 133 PNGs (5 parallel reviewers). Picked **19**, resized to �
 
 **Findings from the pass:**
 - ✅ **Icon evolution EXISTS** — a clear May-21 progression was captured: cloud mascot → + pink bow → blue-square / color & shape variants → final icon on the home screen. Three picked above; more variants available (`…2.23.11 PM` Figma, `…4.03.50 PM` mono-green, `…5.19.51/5.20.39 PM` shape grid, `…10.45.54 AM` iterations) if we want a richer before→after montage. **This answers the icon-evolution open question — no extra screenshot pass needed.**
-- ✅ **Part 6 (MCPs & Billing) — mostly resolved (2026-06-05).** User added `~/Desktop/nubecita/revenuecat/` (4 real shots), committed above: the `pro` entitlement with `nubecita_pro:annual`/`:monthly` attached, an anonymous-customer profile (`$RCA…` App User Id + a USD 1.99 sandbox sub — proves "never the Bluesky DID"), and the RevenueCat MCP docs (NL command examples). Privacy-clean (sandbox data, no API keys, anon ID truncated). **Still missing:** (a) the in-app `:feature:paywall` Compose screen, and (b) the **$19.99/yr annual price** shown explicitly (only the $1.99/mo appears, on the customer shot) — a grab of Product catalog → Products would nail both prices side-by-side.
+- ✅ **Part 6 (MCPs & Billing) — FULLY RESOLVED (2026-06-05).** Two user-supplied folders, committed:
+  - `revenuecat/` (4): `pro` entitlement with annual/monthly products, anonymous-customer profile (`$RCA…` + USD 1.99 sandbox sub — proves "never the Bluesky DID"), RevenueCat MCP docs (NL commands + intro).
+  - `paywall/` (3 stills + 1 video): the **custom Compose paywall (dark)** showing **both prices ($19.99/yr Save 16% + $1.99/mo)** — fills the last gap and shows the annual price explicitly; the Android Studio **`@Preview` + screenshot-test** harness (proves custom Compose, not RC `purchases-ui`); the Google Play **Manage subscription** (sandbox); and a **25 s purchase-flow demo video** (re-encoded 720p, 2 MB, embeddable via `<video>`).
+  - All privacy-clean (sandbox data, no API keys, anon ID truncated, public profile info only).
   - _Earlier note (resolved): the original "RevenueCat" shots in the main folder were actually GitHub Actions billing, not the IAP dashboard._
 - 🗑️ **Strays correctly dropped:** system Contacts app (the aurora-background "profile" shots), macOS About, MacBook purchase page, Social-Security graph, Fly.io/DNS/WAF infra, insurance UI.
 - Many near-dupe clusters (e.g. five 7:01 PM profile frames, 9:02 PM Play-listing trio) — kept one each.
